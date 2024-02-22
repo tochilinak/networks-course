@@ -143,7 +143,12 @@
 5. Остановите захват пакетов Wireshark и введите «http» в окне фильтра
 
 #### Вопросы
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/6af0aec2-33ab-4fb6-a1f3-20e76d41f471)
+
 1. Каков ответ сервера (код состояния и фраза) в ответ на начальное HTTP-сообщение GET от вашего браузера?
-   - <!-- todo -->
+   - 401 Unauthorized
 2. Когда ваш браузер отправляет сообщение HTTP GET во второй раз, какое новое поле включается в сообщение HTTP GET?
-   - <!-- todo -->
+   - Authorization: Basic d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=
+
+     Credentials: wireshark-students:network
