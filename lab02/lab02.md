@@ -106,7 +106,21 @@
 ```
 
 #### Демонстрация работы
-todo
+
+0. Иконка была сделана опциональной (у продукта его может не быть).
+
+1. Создаем продукт
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/d2f358be-a059-4a50-9b13-8abbba1090db)
+
+2. Загружаем иконку
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/f6ec32ac-2c12-4003-b714-66ecbcd40fbe)
+
+3. Запрашиваем иконку
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/a9ef8ff2-d481-456f-a643-5a728766772a)
+
 
 ---
 
