@@ -62,7 +62,29 @@
 запросы и ответы со стороны сервиса для **всех** его операций.
 
 #### Демонстрация работы
-todo
+
+1. `POST /product`
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/ddb40f82-3c95-4c76-80cd-360402606f9f)
+
+2. `GET /product/{product_id}`
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/eeb0382c-ff66-49c0-ae39-af693adbf617)
+
+3. `PUT /product/{product_id}`
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/90945958-0eaa-4f61-be9c-a8c3e4480476)
+
+4. `GET /products`
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/db29d44b-d873-4c64-8bb6-633b17a51796)
+
+5. `DELETE /product/{product_id}`
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/a5b6d2a6-eb72-4d6e-bac4-b9fbbd40bb85)
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/22551f22-7bbc-4d1d-98e6-1d349cc5afc1)
+
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
