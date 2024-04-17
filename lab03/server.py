@@ -8,6 +8,8 @@ def process_client(conn, addr):
     try:
         while True:
             msg = conn.recv(1024)
+            if len(msg) == 0:
+                break
             lines = msg.split(b'\r\n')
             
             print("Request:\n", lines)
