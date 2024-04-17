@@ -48,6 +48,7 @@ if __name__ == "__main__":
 
     with socket.socket() as sock:
         sock.bind(('localhost', port))
+        sock.listen(1)
 
         while True:
             conn, addr = sock.accept()
