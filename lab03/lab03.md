@@ -29,11 +29,12 @@
 
 1. Запрос существующего файла:
 
-![image](https://github.com/tochilinak/networks-course/assets/35286460/34fca7fe-0823-497b-97f6-345417f13b09)
+![image](https://github.com/tochilinak/networks-course/assets/35286460/bb649387-2d9f-4b21-8e88-ff440c659ef7)
+
 
 2. Запрос несуществующего файла:
 
-![image](https://github.com/tochilinak/networks-course/assets/35286460/9f721b3b-6074-4a5a-8ad6-3467793abb2d)
+![image](https://github.com/tochilinak/networks-course/assets/35286460/fa8bcf1a-7f17-4822-8f83-8c75d1aee4d2)
 
 
 ### Б. Многопоточный веб-сервер (2 балла)
