@@ -1,11 +1,20 @@
 import socket
 import sys
 from pathlib import Path
-from threading import Thread
 
 
-def process_client(conn, addr):
-    try:
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        exit(1)
+
+    port = int(sys.argv[1])
+    print("Starting server at port", port)
+
+    with socket.socket() as sock:
+        sock.bind(('localhost', port))
+        sock.listen(1)
+
+        conn, addr = sock.accept()
         while True:
             msg = conn.recv(1024)
             lines = msg.split(b'\r\n')
@@ -33,22 +42,4 @@ def process_client(conn, addr):
                       content
                 conn.send(msg.encode())
 
-    finally:
         conn.close()
-
-
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        exit(1)
-
-    port = int(sys.argv[1])
-    print("Starting server at port", port)
-
-    with socket.socket() as sock:
-        sock.bind(('localhost', port))
-        sock.listen(1)
-
-        while True:
-            conn, addr = sock.accept()
-            t = Thread(target=process_client, args=(conn, addr))
-            t.start()
