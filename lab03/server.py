@@ -21,7 +21,7 @@ if __name__ == "__main__":
             
             print("Request:\n", lines)
             
-            given_path = lines[-1].decode()
+            given_path = lines[0].split()[1][1:].decode()
             path = Path('server_data') / given_path
             
             print("Requested path:", path)
@@ -34,10 +34,12 @@ if __name__ == "__main__":
                           f"\r\n" + \
                           content
                     conn.send(msg.encode())
-            except FileNotFoundError:
-                msg = "HTTP/1.1 404 Not Found\r\n" + \
-                      "Content-Length: 0\r\n" + \
-                      "\r\n"
+            except (FileNotFoundError, IsADirectoryError):
+                content = "404 Not Found"
+                msg = f"HTTP/1.1 404 Not Found\r\n" + \
+                      f"Content-Length: {len(content)}\r\n" + \
+                      f"\r\n" + \
+                      content
                 conn.send(msg.encode())
 
         conn.close()
