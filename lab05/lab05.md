@@ -35,7 +35,11 @@
 Сделайте скриншоты полученных сообщений.
 
 #### Демонстрация работы
-todo
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/5ef2feba-4ea0-4cac-9445-15d6888beda7)
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/b7ce8dec-95bd-4573-8ebf-4b29d4a3fe51)
+
 
 ### 3. SMTP-клиент: бинарные данные (2 балла)
 Модифицируйте ваш SMTP-клиент из предыдущего задания так, чтобы теперь он мог
