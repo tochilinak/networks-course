@@ -48,7 +48,11 @@
 Сделайте скриншот, подтверждающий получение почтового сообщения с картинкой.
 
 #### Демонстрация работы
-todo
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/37f93439-4ef3-4319-a51d-cb0371c5bc79)
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/4447ed4d-fffc-42b0-818c-7fda5e431d9c)
+
 
 ---
 
