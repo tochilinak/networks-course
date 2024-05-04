@@ -14,7 +14,15 @@
 Приложите скриншоты полученных сообщений (для обоих форматов).
 
 #### Демонстрация работы
-todo
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/4e075e02-fa44-4d17-aea6-c3c3832684dd)
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/e3604665-08ff-434e-a970-c74a73e53615)
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/fc66c33c-6ae3-4955-9b13-7247b2e17f7b)
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/a16c535e-8014-4e9f-8bdd-f724529cf47e)
+
 
 ### 2. SMTP-клиент (3 балла)
 Разработайте простой почтовый клиент, который отправляет текстовые сообщения
