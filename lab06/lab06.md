@@ -57,7 +57,19 @@
 Приложите скриншоты.
 
 #### Скрины
-todo
+
+Подключились:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/8cc12165-8f2e-4fcf-9c2d-60accc98fb25)
+
+Загрузили файл:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/990eee39-9d75-44c8-8ac9-7a1c6e2b1d0c)
+
+Она появилась в нативной папке:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/e8625dc7-259e-47bc-b6c3-f562e368098b)
+
 
 ### FTP клиент (3 балла)
 Создайте консольное приложение FTP клиента для работы с файлами по FTP. Приложение может
