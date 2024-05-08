@@ -56,7 +56,23 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
 Приложите скрины или логи, из которых понятно, что ответ на повторный запрос был взят из кэша.
 
 #### Демонстрация работы
-todo
+
+Первый сайт:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/5817d5af-8a3c-4efa-acbe-8697b197d281)
+
+Второй сайт:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/444aca5d-91e0-49bd-bd76-cd0e66703f6e)
+
+Опять первый:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/449dc166-21dc-4d54-9d34-6272d380ae30)
+
+Логи:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/04dd5a25-cec7-4218-b1eb-b3ce9a15a8ca)
+
 
 ### В. Черный список (2 балла)
 Прокси-сервер отслеживает страницы и не пускает на те, которые попадают в черный список. Вместо
