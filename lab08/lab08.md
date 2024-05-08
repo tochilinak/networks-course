@@ -34,7 +34,19 @@
 Приложите скриншоты, подтверждающие работоспособность программы.
 
 #### Демонстрация работы
-todo
+
+Вывод клиента:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/698b9ca9-0215-4498-9572-b257845cce19)
+
+Вывод сервера:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/676968a2-bccb-45b4-a2ca-385f30edd7d6)
+
+Полученный файл:
+
+![image](https://github.com/tochilinak/networks-course/assets/35286460/d9fe7444-830a-4ad3-a1f7-781e44eb7e00)
+
 
 ### Б. Дуплексная передача (2 балла)
 Поддержите возможность пересылки данных в обоих направлениях: как от клиента к серверу, так и
